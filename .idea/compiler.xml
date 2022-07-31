@@ -9,8 +9,5 @@
         <module name="progect3temp" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="progect3temp" target="17" />
-    </bytecodeTargetLevel>
   </component>
 </project>

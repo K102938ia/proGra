@@ -21,6 +21,9 @@ public class Main extends Application {
         stage.setTitle("program");
         stage.setScene(scene);
         stage.show();
+        ManagerBasic managerBasic = new ManagerBasic ();
+        managerBasic.addUsersObjLoggedIn();
+
     }
 
     public void changeScene(String fxml) throws IOException {

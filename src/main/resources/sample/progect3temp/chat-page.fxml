@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.progect3temp.ChatController">
+   <children>
+      <AnchorPane layoutX="42.0" layoutY="33.0" prefHeight="367.0" prefWidth="211.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="37.0" AnchorPane.rightAnchor="447.0" AnchorPane.topAnchor="33.0">
+         <children>
+            <ScrollPane fx:id="GAndPVListSpace" prefHeight="367.0" prefWidth="216.0" />
+            <VBox fx:id="groupAndPvList" maxWidth="527.0" prefHeight="367.0" prefWidth="216.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="253.0" prefHeight="400.0" prefWidth="447.0">
+         <children>
+            <Button fx:id="sendButton" layoutX="378.0" layoutY="365.0" mnemonicParsing="false" onAction="#send" text="send">
+               <padding>
+                  <Insets bottom="5.0" right="5.0" />
+               </padding>
+            </Button>
+            <ScrollPane fx:id="chatSpace" layoutX="-3.0" layoutY="33.0" prefHeight="327.0" prefWidth="447.0">
+               <content>
+                  <VBox fx:id="messageVbox" maxWidth="527.0" prefHeight="317.0" prefWidth="444.0" />
+               </content>
+            </ScrollPane>
+            
+            <TextField fx:id="inputMessage" layoutX="-2.0" layoutY="364.0" prefHeight="25.0" prefWidth="373.0" />
+            <HBox prefHeight="34.0" prefWidth="447.0" />
+         </children>
+      </AnchorPane>
+      <Label layoutX="56.0" layoutY="6.0" prefHeight="17.0" prefWidth="158.0" text="             Users and groups">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Label>
+      <AnchorPane fx:id="slider" layoutX="-18.0" layoutY="38.0" prefHeight="200.0" prefWidth="150.0" style="-fx-background-color: #002348;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="-1.0" AnchorPane.topAnchor="33.0">
+         <children>
+            <VBox layoutX="-2.0" prefHeight="247.0" prefWidth="100.0" AnchorPane.bottomAnchor="110.0" AnchorPane.leftAnchor="-2.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <children>
+                  <Label fx:id="usernameField" prefHeight="50.0" prefWidth="152.0" textFill="WHITE">
+                     <graphic>
+                        <ImageView fitHeight="38.0" fitWidth="49.0" pickOnBounds="true" preserveRatio="true" />
+                     </graphic>
+                     <font>
+                        <Font name="System Bold Italic" size="14.0" />
+                     </font>
+                  </Label>
+                  <Button fx:id="enterSearchIDButton" mnemonicParsing="false" onAction="#goToSearchID" prefHeight="39.0" prefWidth="96.0" style="-fx-background-color: #002348;" text="search ID" textFill="#f8f8f8">
+                     <graphic>
+                        <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../images/chatIcon.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button fx:id="newGroupButton" mnemonicParsing="false" onAction="#goToCreateNG" prefHeight="35.0" prefWidth="96.0" style="-fx-background-color: #002348;" text="new group" textFill="WHITE">
+                     <graphic>
+                        <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../images/groupIcon.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Button>
+                  <Button mnemonicParsing="false" prefHeight="34.0" prefWidth="96.0" style="-fx-background-color: #002348;" text="   setting" textFill="WHITE">
+                     <graphic>
+                        <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../images/settingIcon.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button fx:id="backButton" mnemonicParsing="false" onAction="#back" prefHeight="34.0" prefWidth="96.0" style="-fx-background-color: #002348;" text="       back" textFill="WHITE">
+                     <graphic>
+                        <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../images/backIcon.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+               </children>
+            </VBox>
+         </children>
+      </AnchorPane>
+      <Label fx:id="Menu" layoutX="14.0" layoutY="2.0" prefHeight="25.0" prefWidth="65.0" text="Menu">
+         <graphic>
+            <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../images/menuIcon.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Label>
+      <Label fx:id="menuBack" layoutX="14.0" layoutY="2.0" prefHeight="25.0" prefWidth="65.0" text="Menu">
+         <graphic>
+            <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../images/menuIcon.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Label>
+   </children>
+</AnchorPane>

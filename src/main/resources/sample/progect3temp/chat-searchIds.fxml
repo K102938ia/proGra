@@ -17,6 +17,6 @@
       </Button>
       <Button fx:id="chatStartButton" layoutX="390.0" layoutY="235.0" mnemonicParsing="false" onAction="#startChat" text="chat" />
       <Button fx:id="backButton" layoutX="659.0" layoutY="374.0" mnemonicParsing="false" onAction="#backSearch" text="back" />
-      <Text fx:id="errorInSearchID" fill="RED" layoutX="280.0" layoutY="108.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="131.13671875" />
+      <Text fx:id="errorInSearchID" fill="RED" layoutX="280.0" layoutY="93.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="131.13671875" />
    </children>
 </AnchorPane>

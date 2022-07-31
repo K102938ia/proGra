@@ -129,7 +129,29 @@ Main main=new Main();
     }
 
 
+    public void setUserName ( String userName ) {
+        this.userName = userName;
+    }
 
+    public void setPassword ( String password ) {
+        this.password = password;
+    }
+
+    public void setPasswordConfirm ( String passwordConfirm ) {
+        this.passwordConfirm = passwordConfirm;
+    }
+
+    public void setSecurityQuestion ( String securityQuestion ) {
+        this.securityQuestion = securityQuestion;
+    }
+
+    public void setUserType ( String UType ) {
+        this.UType = UType;
+    }
+
+    public String getUserName () {
+        return userName;
+    }
 
 
     boolean isValidUN =false;
@@ -221,6 +243,22 @@ if(UType.equalsIgnoreCase("personal")||UType.equalsIgnoreCase("business"))
                 managerBasic.setCurrentUser(tempUsername);
 
 
+                if ( this.UType.equalsIgnoreCase ("Business") ) {
+                    BusinessAccount businessAccount = new BusinessAccount (tempUsername);
+                    businessAccount.setPassWord (tempPass);
+                    businessAccount.setType (UType);
+                    businessAccount.setSecurityAnswer (securityQuestion);
+                    this.managerBasic.businessUsers.add (businessAccount);
+                    User user = new BusinessAccount (userName);
+                } else if ( this.UType.equalsIgnoreCase ("Personal") ) {
+                    PersonalAccount personalAccount = new PersonalAccount (tempUsername);
+                    personalAccount.setSecurityAnswer (securityQuestion);
+                    personalAccount.setType (UType);
+                    personalAccount.setPassWord (tempPass);
+                    this.managerBasic.personalUsers.add (personalAccount);
+                }
+                ManagerBasic.addUsersObjSignIn(userName,password,securityQuestion,UType);
+                //this.addUser (this.userName, this.password, this.securityQuestion, this.UType);
                 addUser(tempUsername, tempPass, securityQuestion,UType);
             }
 
@@ -300,46 +338,8 @@ return true;
     }
 
 
-    private int checkPassword(String password){
-        boolean isValid = false;
-        boolean letter = false;
-        boolean num = false;
-        for (int i = 0; i < password.length(); i++) {
-            char c = password.charAt(i);
-            if((int)c > 48 && (int)c <57){
-                num = true;
-            }
-           else if(((int)c > 65 && (int)c < 90) || ((int)c > 97 && (int)c < 122)){
-               letter = true;
-            }
-           if(letter == true && num == true){
-               break;
-           }
-        }
-
-        if(num == true && letter == true){
-            isValid = true;
-        }
-
-        if(password.length() < 8){
-            return -1;
-        }
-        else if(!isValid && password.length() >= 8){
-            return -2;
-        }
-        else if( isValid && password.length() >= 8)
-            return 1;
-
-
-        return 0;
-
-
-    }
-
-
 //    private int checkPassword(String password){
 //        boolean isValid = false;
-//        /*
 //        boolean letter = false;
 //        boolean num = false;
 //        for (int i = 0; i < password.length(); i++) {
@@ -354,18 +354,10 @@ return true;
 //               break;
 //           }
 //        }
-//         */
-//        String regex = "^[A-Za-z0-9]+$";
-//        Pattern pattern = Pattern.compile(regex);
-//        Matcher matcher = pattern.matcher(password);
-//        if(matcher.matches ()){
-//            isValid = true;
-//        }
-///*
+//
 //        if(num == true && letter == true){
 //            isValid = true;
 //        }
-// */
 //
 //        if(password.length() < 8){
 //            return -1;
@@ -383,16 +375,109 @@ return true;
 //    }
 
 
-    private void addUser(String userName, String password, String securityQuestion, String UType){
+    private int checkPassword(String password){
+        boolean isValid = false;
+        /*
+        boolean letter = false;
+        boolean num = false;
+        for (int i = 0; i < password.length(); i++) {
+            char c = password.charAt(i);
+            if((int)c > 48 && (int)c <57){
+                num = true;
+            }
+           else if(((int)c > 65 && (int)c < 90) || ((int)c > 97 && (int)c < 122)){
+               letter = true;
+            }
+           if(letter == true && num == true){
+               break;
+           }
+        }
+         */
+        String regex = "^[A-Za-z0-9]+$";
+        Pattern pattern = Pattern.compile(regex);
+        Matcher matcher = pattern.matcher(password);
+        if(matcher.matches ()){
+            isValid = true;
+        }
+/*
+        if(num == true && letter == true){
+            isValid = true;
+        }
+ */
+
+        if(password.length() < 8){
+            return -1;
+        }
+        else if(!isValid && password.length() >= 8){
+            return -2;
+        }
+        else if( isValid && password.length() >= 8)
+            return 1;
+
+
+        return 0;
+
+
+    }
+
+
+    private void addUser(String tempUsername, String tempPass, String securityQuestion, String UType){
         File file = new File("usersAndPasswords.txt");
         try {
             FileWriter fileWriter = new FileWriter(file, true);
-            fileWriter.write( userName+ ":" +password+ ":" + securityQuestion +":"+ UType + "\n");
+            fileWriter.write( tempUsername+ ":" +tempPass+ ":" + securityQuestion +":"+ UType + "\n");
             fileWriter.close();
 
+            if(UType.equals ("Personal")){
+                PersonalAccount personalAccount = new PersonalAccount (tempUsername);
+                personalAccount.setType (UType);
+                personalAccount.setPassWord (tempPass);
+                personalAccount.setSecurityAnswer (securityQuestion);
+                ManagerBasic.personalUsers.add (personalAccount);
+                User user = (User) personalAccount;
+                ManagerBasic.users.add (user);
+                File file1 = new File (tempUsername+"Posts.txt");
+                file1.createNewFile ();
+            }
+
+            else if(UType.equals ("Business")){
+                BusinessAccount businessAccount = new BusinessAccount (tempUsername);
+                businessAccount.setType (UType);
+                businessAccount.setSecurityAnswer (securityQuestion);
+                businessAccount.setPassWord (tempPass);
+                ManagerBasic.businessUsers.add (businessAccount);
+                User user =  businessAccount;
+                ManagerBasic.users.add (user);
+                File file1 = new File (tempUsername+"Posts.txt");
+                file1.createNewFile ();
+            }
         }
         catch (IOException e) {
             e.printStackTrace();
+        }
+
+        if(UType.equals ("Personal")) {
+            File personalFile = new File ("PersonalUsers.txt");
+            try {
+                FileWriter fileWriter = new FileWriter (personalFile, true);
+                fileWriter.write (tempUsername + ":" + tempPass + ":" + securityQuestion + ":" + UType + "\n");
+                fileWriter.close ();
+
+            } catch ( IOException e ) {
+                e.printStackTrace ();
+            }
+        }
+
+        else if(UType.equals ("Business")) {
+            File businessFile = new File ("BusinessUsers.txt");
+            try {
+                FileWriter fileWriter = new FileWriter (businessFile, true);
+                fileWriter.write (tempUsername + ":" + tempPass + ":" + securityQuestion + ":" + UType + "\n");
+                fileWriter.close ();
+
+            } catch ( IOException e ) {
+                e.printStackTrace ();
+            }
         }
 
 
