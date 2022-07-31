@@ -14,6 +14,8 @@ import java.util.Scanner;
 
 public class LoginController {
 
+ManagerBasic managerBasic=new ManagerBasic();
+
     @FXML
     private Button loginButton;
 
@@ -107,6 +109,7 @@ public class LoginController {
         String userName=username.getText();
          String password=passWord.getText();
 
+        managerBasic.setCurrentUser(userName);
 
         HashMap<String, String> usersAndPasswords = new HashMap<String, String>();
         try {
@@ -147,6 +150,7 @@ public class LoginController {
        String tempAnswer = answer.getText();
         String username=username2.getText();
 
+        managerBasic.setCurrentUser(username);
 
         HashMap<String, String> usersAndAnswers = new HashMap<String, String>();
         try {

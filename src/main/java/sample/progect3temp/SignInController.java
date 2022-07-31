@@ -218,7 +218,7 @@ if(UType.equalsIgnoreCase("personal")||UType.equalsIgnoreCase("business"))
 
                 managerBasic.setUsers(user1);
 
-
+                managerBasic.setCurrentUser(tempUsername);
 
 
                 addUser(tempUsername, tempPass, securityQuestion,UType);
