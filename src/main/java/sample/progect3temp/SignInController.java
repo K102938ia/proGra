@@ -4,10 +4,16 @@ package sample.progect3temp;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Node;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
 import javafx.scene.control.Button;
+import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 import javafx.scene.image.ImageView;
 import javafx.scene.text.Text;
+import javafx.stage.Stage;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -42,6 +48,7 @@ Main main=new Main();
 
     @FXML
     private TextField username;
+
 
 
     @FXML
@@ -102,8 +109,23 @@ Main main=new Main();
         if (continueCheck)
         {
             signInFin();
+            if(UType.equalsIgnoreCase ("personal")){
+                PersonalHomePageController personalHomePageController = new PersonalHomePageController ();
+                personalHomePageController.setPic ();
+                PersonalHomePageController.username = tempUsername;
+                PersonalHomePageController.type = UType;
+                PersonalHomePageController.password = tempPass;
+                BusinessHomepageController.type = " ";
+                personalHomePge(event);
+            }
 
-            main.changeScene("entered-firstPage.fxml");
+            else if(UType.equalsIgnoreCase ("business")){
+                BusinessHomepageController.username = tempUsername;
+                BusinessHomepageController.type = UType;
+                BusinessHomepageController.password = tempPass;
+                PersonalHomePageController.type = " ";
+                BusinesslHomePge(event);
+            }
         }
 
 
@@ -249,7 +271,7 @@ if(UType.equalsIgnoreCase("personal")||UType.equalsIgnoreCase("business"))
                     businessAccount.setType (UType);
                     businessAccount.setSecurityAnswer (securityQuestion);
                     this.managerBasic.businessUsers.add (businessAccount);
-                    User user = new BusinessAccount (userName);
+                    User user = new BusinessAccount (tempUsername);
                 } else if ( this.UType.equalsIgnoreCase ("Personal") ) {
                     PersonalAccount personalAccount = new PersonalAccount (tempUsername);
                     personalAccount.setSecurityAnswer (securityQuestion);
@@ -438,6 +460,10 @@ return true;
                 ManagerBasic.users.add (user);
                 File file1 = new File (tempUsername+"Posts.txt");
                 file1.createNewFile ();
+                File file2 = new File (tempUsername+"follower.txt");
+                file2.createNewFile ();
+                File file3 = new File (tempUsername+"following.txt");
+                file3.createNewFile ();
             }
 
             else if(UType.equals ("Business")){
@@ -450,6 +476,10 @@ return true;
                 ManagerBasic.users.add (user);
                 File file1 = new File (tempUsername+"Posts.txt");
                 file1.createNewFile ();
+                File file2 = new File (tempUsername+"follower.txt");
+                file2.createNewFile ();
+                File file3 = new File (tempUsername+"following.txt");
+                file3.createNewFile ();
             }
         }
         catch (IOException e) {
@@ -480,6 +510,30 @@ return true;
             }
         }
 
+
+    }
+
+
+    @FXML
+    private Stage stage;
+    private Scene scene;
+    private Parent root;
+
+    public void personalHomePge( ActionEvent event ) throws IOException {
+        root = FXMLLoader.load(getClass().getResource("PersonalHomePage.fxml"));
+        stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
+        scene = new Scene (root);
+        stage.setScene(scene);
+        stage.show();
+
+    }
+
+    public void BusinesslHomePge( ActionEvent event ) throws IOException {
+        root = FXMLLoader.load(getClass().getResource("BusinessHomePage.fxml"));
+        stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
+        scene = new Scene (root);
+        stage.setScene(scene);
+        stage.show();
 
     }
 }

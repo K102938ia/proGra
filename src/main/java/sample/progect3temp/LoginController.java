@@ -2,9 +2,14 @@ package sample.progect3temp;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Node;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
 import javafx.scene.text.Text;
+import javafx.stage.Stage;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -15,6 +20,8 @@ import java.util.Scanner;
 public class LoginController {
 
 ManagerBasic managerBasic=new ManagerBasic();
+static String userNameStatic;
+static String typeStatic;
 
     @FXML
     private Button loginButton;
@@ -59,6 +66,7 @@ ManagerBasic managerBasic=new ManagerBasic();
 
         main.changeScene("login-page.fxml");
     }
+    static String type;
 
     @FXML
     void login(ActionEvent event) throws IOException {
@@ -69,7 +77,30 @@ ManagerBasic managerBasic=new ManagerBasic();
         loginErrorType(condition);
         if (condition==1)
         {
-            main.changeScene("entered-firstPage.fxml");
+            boolean personal = false;
+            for ( User personalUser : ManagerBasic.personalUsers ) {
+                if(personalUser.userName.equals(userNameStatic)){
+                    PersonalHomePageController.type = "Personal";
+                    PersonalHomePageController.username = username.getText ();
+                    personalHomePge (event);
+                    personal =true;
+                    BusinessHomepageController.type = " ";
+                    break;
+                }
+            }
+            if(!personal){
+                for ( User businessUser : ManagerBasic.businessUsers ) {
+                    if(businessUser.userName.equals (userNameStatic)){
+                        BusinessHomepageController.type = "Business";
+                        BusinessHomepageController.username = username.getText ();
+                        businessHomePge (event);
+                        PersonalHomePageController.type = " ";
+                        break;
+                    }
+                }
+            }
+
+            //main.changeScene("entered-firstPage.fxml");
         }
 
     }
@@ -130,7 +161,7 @@ ManagerBasic managerBasic=new ManagerBasic();
             e.printStackTrace();
         }
         if(usersAndPasswords.containsKey(userName) && usersAndPasswords.get(userName).equals(password)){
-
+            userNameStatic = userName;
             return 1;
         }
         else if(!usersAndPasswords.containsKey(userName)){
@@ -196,6 +227,29 @@ ManagerBasic managerBasic=new ManagerBasic();
             loginError.setText("Wrong answer");
 
 
+
+    }
+
+    @FXML
+    private Stage stage;
+    private Scene scene;
+    private Parent root;
+
+    public void personalHomePge( ActionEvent event ) throws IOException {
+        root = FXMLLoader.load(getClass().getResource("PersonalHomePage.fxml"));
+        stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
+        scene = new Scene (root);
+        stage.setScene(scene);
+        stage.show();
+
+    }
+
+    public void businessHomePge( ActionEvent event ) throws IOException {
+        root = FXMLLoader.load(getClass().getResource("BusinessHomePage.fxml"));
+        stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
+        scene = new Scene (root);
+        stage.setScene(scene);
+        stage.show();
 
     }
 

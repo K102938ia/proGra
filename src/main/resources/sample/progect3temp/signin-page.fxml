@@ -10,7 +10,7 @@
 
 <AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.progect3temp.SignInController">
    <children>
-      <ImageView fitHeight="444.0" fitWidth="708.0" layoutX="-3.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="429.0" fitWidth="708.0" layoutX="-1.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../../images/signin.jpg" />
          </image>
@@ -35,6 +35,6 @@
       </Text>
       <Button fx:id="nextButton" layoutX="134.0" layoutY="335.0" mnemonicParsing="false" onAction="#next" text="next" />
       <Text fx:id="signInError" fill="RED" layoutX="59.0" layoutY="136.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="189.0" />
-      <Button fx:id="backButton" layoutX="664.0" layoutY="376.0" mnemonicParsing="false" onAction="#goBack" text="back" />
+      <Button fx:id="backButton" layoutX="652.0" layoutY="361.0" mnemonicParsing="false" onAction="#goBack" text="back" />
    </children>
 </AnchorPane>

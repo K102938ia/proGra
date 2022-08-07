@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="649.0" prefWidth="906.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.progect3temp.SeeCommentsOfPostController">
+   <children>
+      <Label fx:id="commentLabel" layoutX="211.0" layoutY="26.0" prefHeight="34.0" prefWidth="375.0" text="comments">
+         <font>
+            <Font name="Centaur" size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="commentBack" layoutX="23.0" layoutY="602.0" mnemonicParsing="false" onAction="#goBackToHomePage" text="Back">
+         <font>
+            <Font name="Centaur" size="16.0" />
+         </font>
+      </Button>
+      <ListView fx:id="commentor" layoutX="94.0" layoutY="61.0" prefHeight="554.0" prefWidth="117.0" />
+      <ListView fx:id="commentList" layoutX="211.0" layoutY="61.0" prefHeight="554.0" prefWidth="375.0" />
+      <Label fx:id="commentorLabel" layoutX="93.0" layoutY="26.0" prefHeight="34.0" prefWidth="118.0" text="user">
+         <font>
+            <Font name="Centaur" size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="likeButton" layoutX="614.0" layoutY="86.0" mnemonicParsing="false" onAction="#likeAComment" prefHeight="27.0" prefWidth="86.0" text="like">
+         <font>
+            <Font name="Centaur" size="16.0" />
+         </font>
+      </Button>
+      <Button layoutX="670.0" layoutY="282.0" mnemonicParsing="false" onAction="#addComment" prefHeight="33.0" prefWidth="161.0" text="comment on the post">
+         <font>
+            <Font name="Centaur" size="16.0" />
+         </font>
+      </Button>
+      <Label layoutX="614.0" layoutY="164.0" prefHeight="27.0" prefWidth="169.0" text="write your comment :">
+         <font>
+            <Font name="Centaur" size="18.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="commentTextArea" layoutX="614.0" layoutY="191.0" prefHeight="78.0" prefWidth="274.0" />
+      <Label fx:id="commentSavedLabel" alignment="CENTER" layoutX="662.0" layoutY="376.0" prefHeight="27.0" prefWidth="179.0" textFill="#1ccf58">
+         <font>
+            <Font name="Centaur" size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="seeCommentsOfACommentButton" layoutX="624.0" layoutY="456.0" mnemonicParsing="false" onAction="#seeCommentsOfAComment" prefHeight="34.0" prefWidth="256.0" text="see comments of the selected comment">
+         <font>
+            <Font name="Centaur" size="16.0" />
+         </font>
+      </Button>
+      <Label fx:id="likeLabel" layoutX="614.0" layoutY="129.0" prefHeight="27.0" prefWidth="274.0" textFill="#d41515">
+         <font>
+            <Font name="Centaur" size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="commentOnCommentButton" layoutX="633.0" layoutY="321.0" mnemonicParsing="false" onAction="#commentOnTheSelectedComment" prefHeight="34.0" prefWidth="234.0" text="comment on the selected comment">
+         <font>
+            <Font name="Centaur" size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="seeLikesOfCommentButton" layoutX="624.0" layoutY="497.0" mnemonicParsing="false" onAction="#LikesOfComment" prefHeight="34.0" prefWidth="256.0" text="see likes of the selected comment">
+         <font>
+            <Font name="Centaur" size="16.0" />
+         </font>
+      </Button>
+      <ImageView fx:id="likedImage" fitHeight="41.0" fitWidth="42.0" layoutX="731.0" layoutY="78.0" pickOnBounds="true" preserveRatio="true" />
+   </children>
+</AnchorPane>
