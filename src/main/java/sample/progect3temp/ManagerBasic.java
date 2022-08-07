@@ -18,7 +18,7 @@ public class ManagerBasic {
 
     public static ArrayList < User > businessUsers = new ArrayList <> ();
     public static ArrayList < User > personalUsers = new ArrayList <> ();
-//    static ArrayList < Post > allPosts = new ArrayList <> ();
+    static ArrayList < Post > allPosts = new ArrayList <> ();
 
     static String currentUser;
     public void setCurrentUser(String userName)
@@ -69,7 +69,7 @@ public class ManagerBasic {
         user.setSecurityAnswer (securityQuestion);
         user.setType (uType);
 
-        users.add (user);
+        //users.add (user);
         if ( uType.equals ("Personal") ) {
             personalUsers.add (user);
         } else if ( uType.equals ("Business") ) {

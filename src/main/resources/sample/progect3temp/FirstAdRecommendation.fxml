@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="649.0" prefWidth="906.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.progect3temp.FirstAdRecommendationController">
+   <children>
+      <Label alignment="CENTER" layoutX="69.0" layoutY="131.0" prefHeight="42.0" prefWidth="750.0" text="Ads are recommended based on">
+         <font>
+            <Font name="Harlow Solid Italic" size="24.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="276.0" layoutY="173.0" text="either your followings and followers,">
+         <font>
+            <Font name="Harlow Solid Italic" size="24.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="334.0" layoutY="215.0" text="or random calculations.">
+         <font>
+            <Font name="Harlow Solid Italic" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="300.0" layoutY="294.0" text="Which one do you want to try?">
+         <font>
+            <Font name="Harlow Solid Italic" size="24.0" />
+         </font>
+      </Label>
+      <CheckBox fx:id="followersAndFollowings" layoutX="139.0" layoutY="402.0" mnemonicParsing="false" text="based on my followers and followings">
+         <font>
+            <Font name="Harlow Solid Italic" size="18.0" />
+         </font>
+      </CheckBox>
+      <CheckBox fx:id="random" layoutX="538.0" layoutY="402.0" mnemonicParsing="false" text="based on random calculations">
+         <font>
+            <Font name="Harlow Solid Italic" size="18.0" />
+         </font>
+      </CheckBox>
+      <Button fx:id="confirm" layoutX="396.0" layoutY="487.0" mnemonicParsing="false" onAction="#confirmChoice" prefHeight="46.0" prefWidth="95.0" text="confirm">
+         <font>
+            <Font name="Harlow Solid Italic" size="19.0" />
+         </font>
+      </Button>
+      <Button fx:id="back" layoutX="14.0" layoutY="599.0" mnemonicParsing="false" onAction="#goBackToHomePage" text="back">
+         <font>
+            <Font name="Harlow Solid Italic" size="14.0" />
+         </font>
+      </Button>
+      <Label fx:id="noModeLabel" alignment="CENTER" layoutX="275.0" layoutY="549.0" prefHeight="30.0" prefWidth="335.0" textFill="#e11f1f">
+         <font>
+            <Font name="Harlow Solid Italic" size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

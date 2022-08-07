@@ -31,6 +31,6 @@
       <Button fx:id="forgotButton" layoutX="231.0" layoutY="282.0" mnemonicParsing="false" onAction="#forgotPass" prefHeight="30.0" prefWidth="89.0" style="-fx-background-color: #E0A4A6;" text="forget password" />
       <Button fx:id="loginButton" layoutX="123.0" layoutY="322.0" mnemonicParsing="false" onAction="#login" text="Log in" />
       <Text fx:id="loginError" fill="#f50000" layoutX="48.0" layoutY="172.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="204.9830722808838" />
-      <Button fx:id="backButton" layoutX="658.0" layoutY="374.0" mnemonicParsing="false" onAction="#goBack" text="back" />
+      <Button fx:id="backButton" layoutX="636.0" layoutY="360.0" mnemonicParsing="false" onAction="#goBack" text="back" />
    </children>
 </AnchorPane>

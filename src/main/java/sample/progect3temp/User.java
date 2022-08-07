@@ -3,14 +3,14 @@ package sample.progect3temp;
 import java.util.ArrayList;
 
 public  class User {
-    String userName;
+    public String userName;
     int numberOfFollower=0,numberOfFollowing=0;
     ArrayList <String> followers=new ArrayList<>();
     ArrayList <String> followings=new ArrayList<>();
     String type;
     String passWord;
     String securityAnswer;
-//    public ArrayList<Post> posts = new ArrayList<> ();
+    public ArrayList<Post> posts = new ArrayList<> ();
 
 
 
