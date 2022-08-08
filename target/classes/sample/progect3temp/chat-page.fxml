@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.progect3temp.ChatController">
+   <children>
+      <AnchorPane layoutX="42.0" layoutY="33.0" prefHeight="367.0" prefWidth="211.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="37.0" AnchorPane.rightAnchor="447.0" AnchorPane.topAnchor="33.0">
+         <children>
+            <ScrollPane fx:id="GAndPVListSpace" prefHeight="367.0" prefWidth="216.0">
+               <content>
+
+                  <VBox fx:id="groupAndPvList" maxWidth="527.0" prefHeight="367.0" prefWidth="216.0" />
+               </content></ScrollPane>
+
+
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="253.0" prefHeight="400.0" prefWidth="447.0">
+         <children>
+            <Button fx:id="sendButton" layoutX="288.0" layoutY="367.0" mnemonicParsing="false" onAction="#send" text="send">
+               <padding>
+                  <Insets bottom="5.0" right="5.0" />
+               </padding>
+            </Button>
+            <ScrollPane fx:id="chatSpace" layoutX="-3.0" layoutY="33.0" prefHeight="327.0" prefWidth="447.0">
+               <content>
+                  <VBox fx:id="messageVbox" maxWidth="527.0" prefHeight="317.0" prefWidth="444.0" />
+               </content>
+            </ScrollPane>
+
+            <TextField fx:id="inputMessage" layoutX="-3.0" layoutY="365.0" prefHeight="25.0" prefWidth="290.0" />
+            <HBox fx:id="contactInf" prefHeight="34.0" prefWidth="336.0">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#smallMenuOfChatOptions" prefHeight="34.0" prefWidth="42.0" text="options">
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                     <font>
+                        <Font size="8.0" />
+                     </font>
+                  </Button>
+               </children></HBox>
+            <AnchorPane fx:id="chatOptions" layoutX="292.0" layoutY="-86.0" prefHeight="133.0" prefWidth="111.0" AnchorPane.bottomAnchor="267.0" AnchorPane.leftAnchor="337.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <children>
+                  <VBox fx:id="chatOptionVbox" prefHeight="153.0" prefWidth="111.0" />
+               </children>
+            </AnchorPane>
+            <Button fx:id="imageSildeButton" layoutX="357.0" layoutY="366.0" maxHeight="22.0" mnemonicParsing="false" onAction="#imageSlide" prefHeight="24.0" prefWidth="53.0" text="image" />
+            <AnchorPane fx:id="imageSendSlide" layoutX="244.0" layoutY="359.0" prefHeight="38.0" prefWidth="200.0">
+               <children>
+                  <TextField fx:id="inputImageName" layoutX="39.0" layoutY="8.0" prefHeight="25.0" prefWidth="161.0" promptText="image name" AnchorPane.topAnchor="8.0" />
+                  <Button layoutY="12.0" mnemonicParsing="false" onAction="#sendImage" prefHeight="25.0" prefWidth="38.0" text="send" AnchorPane.rightAnchor="162.0" AnchorPane.topAnchor="8.0">
+                     <font>
+                        <Font size="8.0" />
+                     </font>
+                  </Button>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+      <Label layoutX="74.0" layoutY="6.0" prefHeight="17.0" prefWidth="150.0" text="Users and groups">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Label>
+      <AnchorPane fx:id="slider" layoutX="-18.0" layoutY="38.0" prefHeight="367.0" prefWidth="150.0" style="-fx-background-color: #002348;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="-1.0" AnchorPane.topAnchor="33.0">
+         <children>
+            <VBox layoutX="-1.0" prefHeight="34.0" prefWidth="152.0" AnchorPane.bottomAnchor="155.0" AnchorPane.leftAnchor="-1.0" AnchorPane.rightAnchor="-1.0" AnchorPane.topAnchor="0.0">
+               <children>
+                  <Label fx:id="usernameField" prefHeight="50.0" prefWidth="152.0" textFill="WHITE">
+                     <graphic>
+                        <ImageView fitHeight="38.0" fitWidth="49.0" pickOnBounds="true" preserveRatio="true" />
+                     </graphic>
+                     <font>
+                        <Font name="System Bold Italic" size="14.0" />
+                     </font>
+                  </Label>
+                  <Button fx:id="enterSearchIDButton" mnemonicParsing="false" onAction="#goToSearchID" prefHeight="39.0" prefWidth="96.0" style="-fx-background-color: #002348;" text="search ID" textFill="#f8f8f8">
+                     <graphic>
+                        <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../images/chatIcon.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button fx:id="newGroupButton" mnemonicParsing="false" onAction="#goToCreateNG" prefHeight="35.0" prefWidth="96.0" style="-fx-background-color: #002348;" text="new group" textFill="WHITE">
+                     <graphic>
+                        <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../images/groupIcon.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Button>
+                  <Button mnemonicParsing="false" prefHeight="34.0" prefWidth="96.0" style="-fx-background-color: #002348;" text="   setting" textFill="WHITE">
+                     <graphic>
+                        <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../images/settingIcon.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Button fx:id="backButton" mnemonicParsing="false" onAction="#back" prefHeight="34.0" prefWidth="96.0" style="-fx-background-color: #002348;" text="       back" textFill="WHITE">
+                     <graphic>
+                        <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../images/backIcon.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+               </children>
+            </VBox>
+         </children>
+      </AnchorPane>
+      <Label fx:id="Menu" layoutX="14.0" layoutY="2.0" prefHeight="25.0" prefWidth="65.0" text="Menu">
+         <graphic>
+            <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../images/menuIcon.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Label>
+      <Label fx:id="menuBack" layoutX="14.0" layoutY="2.0" prefHeight="25.0" prefWidth="65.0" text="Menu">
+         <graphic>
+            <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../images/menuIcon.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Label>
+      <Button fx:id="showChatListButton" layoutX="224.0" layoutY="2.0" mnemonicParsing="false" onAction="#showChatList" prefHeight="25.0" prefWidth="19.0" text="A">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Button>
+      <AnchorPane fx:id="messageOptionsSlider" layoutX="-1.0" layoutY="227.0" prefHeight="177.0" prefWidth="150.0" style="-fx-background-color: #5F6A6A;" AnchorPane.bottomAnchor="-4.0" AnchorPane.leftAnchor="-1.0" AnchorPane.rightAnchor="551.0" AnchorPane.topAnchor="227.0">
+         <children>
+            <VBox layoutX="-1.0" prefHeight="38.0" prefWidth="152.0" AnchorPane.bottomAnchor="139.0" AnchorPane.leftAnchor="-1.0" AnchorPane.rightAnchor="-1.0" AnchorPane.topAnchor="0.0">
+               <children>
+                  <Label fx:id="errorMOP" prefHeight="50.0" prefWidth="152.0" textFill="RED">
+                     <graphic>
+                        <ImageView fitHeight="38.0" fitWidth="49.0" pickOnBounds="true" preserveRatio="true" />
+                     </graphic>
+                     <font>
+                        <Font name="System Bold Italic" size="10.0" />
+                     </font>
+                  </Label>
+                  <Button fx:id="ForwardButton" mnemonicParsing="false" prefHeight="13.0" prefWidth="155.0" style="-fx-background-color: #F9E79F;" text="Forward" />
+               </children>
+            </VBox>
+            <Button fx:id="messageOpSlideClose" layoutX="-4.0" layoutY="151.0" mnemonicParsing="false" onAction="#closemessageOpSlide" prefHeight="25.0" prefWidth="158.0" style="-fx-background-color: #F9E79F;" text="close" />
+            <Button fx:id="editButton" layoutY="121.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="153.0" style="-fx-background-color: #F9E79F;" text="Edit" />
+            <Button fx:id="deleteButton" layoutX="-8.0" layoutY="93.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="161.0" style="-fx-background-color: #F9E79F;" text="Delete" />
+            <Button fx:id="ReplyButton" layoutX="-3.0" layoutY="65.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="156.0" style="-fx-background-color: #F9E79F;" text="Reply" />
+         </children>
+      </AnchorPane>
+      <Button layoutX="198.0" layoutY="2.0" mnemonicParsing="false" onAction="#showGroupList" prefHeight="25.0" prefWidth="19.0" text="G">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="173.0" layoutY="2.0" mnemonicParsing="false" onAction="#showPVList" prefHeight="25.0" prefWidth="19.0" text="P">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

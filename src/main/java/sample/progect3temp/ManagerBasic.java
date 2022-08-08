@@ -83,11 +83,17 @@ public class ManagerBasic {
         user.setType (uType);
 
         //users.add (user);
-        if ( uType.equals ("Personal") ) {
-            personalUsers.add (user);
-        } else if ( uType.equals ("Business") ) {
-            businessUsers.add (user);
+        try {
+            if ( uType.equals ("Personal") ) {
+                //personalUsers.add (user);
+            } else if ( uType.equals ("Business") ) {
+                //businessUsers.add (user);
+            }
         }
+        catch ( NullPointerException e ){
+
+        }
+
     }
 
     public void addUsersObjLoggedIn () {

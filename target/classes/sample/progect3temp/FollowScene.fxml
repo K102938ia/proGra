@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="649.0" prefWidth="906.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.progect3temp.FollowScene">
+   <children>
+      <Button fx:id="backButton" layoutX="14.0" layoutY="609.0" mnemonicParsing="false" onAction="#goBack" text="back">
+         <font>
+            <Font name="Calisto MT" size="14.0" />
+         </font></Button>
+      <TextField fx:id="searchForName" layoutX="167.0" layoutY="184.0" prefHeight="26.0" prefWidth="166.0" promptText="usename" />
+      <Label layoutX="164.0" layoutY="153.0" text="Search for users to follow">
+         <font>
+            <Font name="Calisto MT" size="16.0" />
+         </font></Label>
+      <Button fx:id="followButton" layoutX="223.0" layoutY="223.0" mnemonicParsing="false" onAction="#follow" prefHeight="26.0" prefWidth="54.0" text="follow">
+         <font>
+            <Font name="Calisto MT" size="13.0" />
+         </font></Button>
+      <Label fx:id="feedBackLabel" alignment="CENTER" layoutX="131.0" layoutY="288.0" prefHeight="26.0" prefWidth="236.0">
+         <font>
+            <Font name="Calisto MT" size="14.0" />
+         </font></Label>
+      <Label alignment="CENTER" layoutX="517.0" layoutY="149.0" prefHeight="26.0" prefWidth="206.0" text="Recommnd users">
+         <font>
+            <Font name="Calisto MT" size="16.0" />
+         </font>
+      </Label>
+      <Button fx:id="showRecomButton" layoutX="578.0" layoutY="223.0" mnemonicParsing="false" onAction="#showRecom" prefHeight="26.0" prefWidth="90.0" text="recommend">
+         <font>
+            <Font name="Calisto MT" size="14.0" />
+         </font>
+      </Button>
+      <TextField fx:id="recomResult" layoutX="537.0" layoutY="184.0" prefHeight="26.0" prefWidth="172.0" />
+      <Label fx:id="recomError" layoutX="454.0" layoutY="288.0" prefHeight="26.0" prefWidth="338.0" textFill="#ea1a1a">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

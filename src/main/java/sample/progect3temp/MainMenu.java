@@ -168,27 +168,29 @@ public class MainMenu implements Initializable {
             recentPosts = mainMenuController.showRecent (BusinessHomepageController.username);
         }
 
-       String s = recentPosts.get (0).text;
-        String[] str = s.split ("&");
-        String txt = str[0];
-        if(str.length > 1){
-            String img = str[1];
-            File file = new File(img);
-            if (file.isAbsolute()){
-                Image recentImg = new Image (img);
-                image.setImage (recentImg);
+        if(recentPosts.size () > 0){
+            String s = recentPosts.get (0).text;
+            String[] str = s.split ("&");
+            String txt = str[0];
+            if(str.length > 1){
+                String img = str[1];
+                File file = new File(img);
+                if (file.isAbsolute()){
+                    Image recentImg = new Image (img);
+                    image.setImage (recentImg);
 
+                }
             }
-        }
 
-        text.setText (txt);
-        currentPost = 0;
-        for ( Comment comment : recentPosts.get (0).comments ) {
-            postComments.add (comment.text);
-            postCommentor.add (comment.commentorName);
+            text.setText (txt);
+            currentPost = 0;
+            for ( Comment comment : recentPosts.get (0).comments ) {
+                postComments.add (comment.text);
+                postCommentor.add (comment.commentorName);
+            }
+            commentsList.getItems ().addAll (postComments);
+            usersList.getItems ().addAll (postCommentor);
         }
-        commentsList.getItems ().addAll (postComments);
-        usersList.getItems ().addAll (postCommentor);
 
     }
 }

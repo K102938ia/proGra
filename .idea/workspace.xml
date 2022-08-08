@@ -1,0 +1,697 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9cfffa70-73dc-4bdc-9869-9fa841f7e75c" name="Changes" comment="initial commit10">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BusinessUsers.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/a0PostComments.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/a0PostLikers.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aPosts.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/afollower.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/afollowing.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b0PostComments.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b0PostLikers.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b0PostSeen.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b1PostComments.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b1PostLikers.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b1PostSeen.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bPosts.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bfollower.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bfollowing.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cPosts.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cfollower.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cfollowing.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dPosts.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dfollower.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dfollowing.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ePosts.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/efollower.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/efollowing.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/groupIDs.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/groupNames.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/like.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/personalUsers.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sample/progect3temp/like.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/adSample1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/adSample2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/adSample3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/adSample4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/adSample7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/adSample8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/adSample9.jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/like.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/sample1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/sample2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/sample3.jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/sample4.jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/sample7.jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/sample8.jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/sample9.jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/tickIcon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/like.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sample/progect3temp/addRecom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sample/progect3temp/allChats.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sample/progect3temp/allchats.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sample/progect3temp/change-groupID.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sample/progect3temp/change-groupName.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sample/progect3temp/comment.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sample/progect3temp/createPost.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sample/progect3temp/exit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sample/progect3temp/follow-show.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sample/progect3temp/follow-unfollow-recom.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sample/progect3temp/follow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sample/progect3temp/forward-page.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sample/progect3temp/group-addMember.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sample/progect3temp/group-inf.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sample/progect3temp/group-remove.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sample/progect3temp/icon4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sample/progect3temp/like.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sample/progect3temp/logout.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sample/progect3temp/mainmenu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sample/progect3temp/newConversation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sample/progect3temp/newGroup.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sample/progect3temp/peopleRecom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sample/progect3temp/red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sample/progect3temp/search-MID.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sample/progect3temp/search-Text.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sample/progect3temp/stats.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sample/progect3temp/unfollow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/images/adSample1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/images/adSample2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/images/adSample3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/images/adSample4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/images/adSample7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/images/adSample8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/images/adSample9.jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/images/backIcon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/images/chatIcon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/images/firstPage.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/images/groupIcon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/images/like.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/images/lock.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/images/loginPage.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/images/menuIcon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/images/sample1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/images/sample2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/images/sample3.jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/images/sample4.jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/images/sample7.jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/images/sample8.jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/images/sample9.jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/images/search-icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/images/searchID.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/images/settingIcon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/images/signin.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/images/tickIcon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/like.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/module-info.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/AdRecommendation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/BusinessAccount.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/BusinessHomepage.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/BusinessHomepageController$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/BusinessHomepageController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/BusinessPost.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/ChatController$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/ChatController$10.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/ChatController$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/ChatController$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/ChatController$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/ChatController$5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/ChatController$6.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/ChatController$7.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/ChatController$8.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/ChatController$9.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/ChatController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/Comment.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/CreatePost.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/CreatePostController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/FAndFAd.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/FAndFAd.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/FirstAdRecommendation.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/FirstAdRecommendationController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/FirstPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/FollowController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/FollowScene.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/FollowScene.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/GroupController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/InApp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/Like.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/LoginController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/MainMenu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/MainMenu.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/MainMenuController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/ManagerBasic.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/PersonalAccount.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/PersonalHomePageController$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/PersonalHomePageController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/PersonalPost.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/PersonalhomePage.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/Post.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/PostComparator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/PostController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/RandomAd.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/RandomAd.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/RecommendController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/SeeCommentsOfPost.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/SeeCommentsOfPostController$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/SeeCommentsOfPostController$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/SeeCommentsOfPostController$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/SeeCommentsOfPostController$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/SeeCommentsOfPostController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/SeeFComments$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/SeeFComments$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/SeeFComments$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/SeeFComments$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/SeeFComments.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/SeeFComments.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/SeeFLikes$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/SeeFLikes$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/SeeFLikes.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/SeeFLikes.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/SeeLikesOfPost.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/SeeLikesOfPostController$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/SeeLikesOfPostController$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/SeeLikesOfPostController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/SeePosts.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/SeePostsController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/SeePostsF.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/Seen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/SignInController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/Stats.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/StatsController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/SuggestUsers.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/SuggestUsers.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/addRecom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/allChats.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/allchats.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/change-groupID.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/change-groupName.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/chat-page.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/chat-searchIds.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/comment.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/createPost.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/entered-firstPage.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/exit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/first-page.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/follow-show.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/follow-unfollow-recom.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/follow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/forward-page.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/group-addMember.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/group-inf.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/group-remove.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/icon4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/like.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/login-page.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/login-passForgot.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/logout.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/mainmenu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/newConversation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/newGroup-page.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/newGroup.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/peopleRecom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/search-MID.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/search-Text.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/signin-page.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/signin-page2.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/stats.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/unfollow.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sample/progect3temp/BusinessHomepageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sample/progect3temp/BusinessHomepageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sample/progect3temp/MainMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sample/progect3temp/MainMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sample/progect3temp/ManagerBasic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sample/progect3temp/ManagerBasic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sample/progect3temp/PersonalHomePageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sample/progect3temp/PersonalHomePageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sample/progect3temp/PostController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sample/progect3temp/PostController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sample/progect3temp/SeePostsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sample/progect3temp/SeePostsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/sample/progect3temp/PersonalHomePage.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/sample/progect3temp/PersonalHomePage.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/usersAndPasswords.txt" beforeDir="false" afterPath="$PROJECT_DIR$/usersAndPasswords.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Mahdi Abdi &lt;mahdi1.a1.1m@gmail.com&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2Ckq8e555xTNK341IyFqtthDiry" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="E:/Programing/2/progect3temp (2)/progect3temp" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sample.progect3temp.Main" />
+      <module name="progect3temp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9cfffa70-73dc-4bdc-9869-9fa841f7e75c" name="Changes" comment="" />
+      <created>1659357049778</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1659357049778</updated>
+    </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <created>1659362030549</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1659362030549</updated>
+    </task>
+    <task id="LOCAL-00002" summary="initial commit2">
+      <created>1659878588528</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1659878588528</updated>
+    </task>
+    <task id="LOCAL-00003" summary="initial commit10">
+      <created>1659965429896</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1659965429896</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <MESSAGE value="initial commit2" />
+    <MESSAGE value="initial commit10" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit10" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/sample/progect3temp/LoginController.java</url>
+          <line>79</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/sample/progect3temp/LoginController.java</url>
+          <line>164</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/sample/progect3temp/BusinessHomepageController.java</url>
+          <line>103</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/sample/progect3temp/SeePostsController.java</url>
+          <line>98</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/sample/progect3temp/SeePostsController.java</url>
+          <line>97</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/sample/progect3temp/SeePostsController.java</url>
+          <line>96</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/sample/progect3temp/SeePostsController.java</url>
+          <line>635</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/sample/progect3temp/SeePostsController.java</url>
+          <line>638</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/sample/progect3temp/SeePostsController.java</url>
+          <line>578</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/sample/progect3temp/SeePostsController.java</url>
+          <line>579</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/sample/progect3temp/SeePostsController.java</url>
+          <line>293</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/sample/progect3temp/SeeCommentsOfPostController.java</url>
+          <line>263</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/sample/progect3temp/SeeCommentsOfPostController.java</url>
+          <line>250</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/sample/progect3temp/SeeCommentsOfPostController.java</url>
+          <line>227</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/sample/progect3temp/SeeCommentsOfPostController.java</url>
+          <line>209</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/sample/progect3temp/SeeCommentsOfPostController.java</url>
+          <line>204</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/sample/progect3temp/SeeCommentsOfPostController.java</url>
+          <line>224</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/sample/progect3temp/SeeCommentsOfPostController.java</url>
+          <line>248</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/sample/progect3temp/SeeCommentsOfPostController.java</url>
+          <line>260</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/sample/progect3temp/AdRecommendation.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/sample/progect3temp/AdRecommendation.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/sample/progect3temp/SeeCommentsOfPostController.java</url>
+          <line>247</line>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/sample/progect3temp/SignInController.java</url>
+          <line>274</line>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/sample/progect3temp/PersonalHomePageController.java</url>
+          <line>223</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/sample/progect3temp/SeePostsController.java</url>
+          <line>428</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/sample/progect3temp/BusinessHomepageController.java</url>
+          <line>143</line>
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/sample/progect3temp/SeeFComments.java</url>
+          <line>259</line>
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/sample/progect3temp/SeeFComments.java</url>
+          <line>275</line>
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/sample/progect3temp/SeePostsController.java</url>
+          <line>427</line>
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/sample/progect3temp/PersonalHomePageController.java</url>
+          <line>110</line>
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/sample/progect3temp/SeePostsF.java</url>
+          <line>129</line>
+          <option name="timeStamp" value="80" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/sample/progect3temp/SeePostsF.java</url>
+          <line>259</line>
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/sample/progect3temp/SeePostsController.java</url>
+          <line>374</line>
+          <option name="timeStamp" value="83" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/sample/progect3temp/SeePostsController.java</url>
+          <line>76</line>
+          <option name="timeStamp" value="84" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/sample/progect3temp/BusinessHomepageController.java</url>
+          <line>136</line>
+          <option name="timeStamp" value="85" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/sample/progect3temp/SeePostsController.java</url>
+          <line>175</line>
+          <option name="timeStamp" value="86" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/sample/progect3temp/SeeFComments.java</url>
+          <line>276</line>
+          <option name="timeStamp" value="89" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/sample/progect3temp/SeeFComments.java</url>
+          <line>278</line>
+          <option name="timeStamp" value="90" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/sample/progect3temp/SeeFComments.java</url>
+          <line>277</line>
+          <option name="timeStamp" value="91" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/sample/progect3temp/SeeFComments.java</url>
+          <line>279</line>
+          <option name="timeStamp" value="92" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/sample/progect3temp/SeeFComments.java</url>
+          <line>280</line>
+          <option name="timeStamp" value="93" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/sample/progect3temp/SeeFComments.java</url>
+          <line>281</line>
+          <option name="timeStamp" value="94" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/sample/progect3temp/SeePostsController.java</url>
+          <line>902</line>
+          <option name="timeStamp" value="95" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/sample/progect3temp/SeePostsController.java</url>
+          <line>766</line>
+          <option name="timeStamp" value="97" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/sample/progect3temp/MainMenuController.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="98" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/sample/progect3temp/MainMenuController.java</url>
+          <line>116</line>
+          <option name="timeStamp" value="99" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/sample/progect3temp/SeeCommentsOfPostController.java</url>
+          <line>230</line>
+          <option name="timeStamp" value="103" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/sample/progect3temp/SeeCommentsOfPostController.java</url>
+          <line>203</line>
+          <option name="timeStamp" value="105" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/sample/progect3temp/SignInController.java</url>
+          <line>474</line>
+          <option name="timeStamp" value="106" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/sample/progect3temp/SignInController.java</url>
+          <line>476</line>
+          <option name="timeStamp" value="107" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/sample/progect3temp/SignInController.java</url>
+          <line>460</line>
+          <option name="timeStamp" value="108" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/sample/progect3temp/SignInController.java</url>
+          <line>458</line>
+          <option name="timeStamp" value="109" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/sample/progect3temp/RandomAd.java</url>
+          <line>82</line>
+          <option name="timeStamp" value="110" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/sample/progect3temp/RandomAd.java</url>
+          <line>89</line>
+          <option name="timeStamp" value="111" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/sample/progect3temp/RandomAd.java</url>
+          <line>119</line>
+          <option name="timeStamp" value="112" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/sample/progect3temp/RandomAd.java</url>
+          <line>158</line>
+          <option name="timeStamp" value="114" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/sample/progect3temp/RandomAd.java</url>
+          <line>165</line>
+          <option name="timeStamp" value="115" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/sample/progect3temp/AdRecommendation.java</url>
+          <line>265</line>
+          <option name="timeStamp" value="117" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/sample/progect3temp/ManagerBasic.java</url>
+          <line>84</line>
+          <option name="timeStamp" value="118" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/sample/progect3temp/AdRecommendation.java</url>
+          <line>123</line>
+          <option name="timeStamp" value="125" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/sample/progect3temp/PersonalHomePageController.java</url>
+          <line>111</line>
+          <option name="timeStamp" value="128" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/main/java/sample/progect3temp/User.java</url>
+          <line>5</line>
+          <properties field="userName" class="sample.progect3temp.User" />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/sample/progect3temp/SeeCommentsOfPostController.java</url>
+          <line>303</line>
+          <properties class="sample.progect3temp.SeeCommentsOfPostController">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/sample/progect3temp/BusinessHomepageController.java</url>
+          <line>301</line>
+          <properties class="sample.progect3temp.BusinessHomepageController" method="seeOlderPosts">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/sample/progect3temp/SeeFComments.java</url>
+          <line>90</line>
+          <properties class="sample.progect3temp.SeeFComments" method="commnetOnPost">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/sample/progect3temp/BusinessHomepageController.java</url>
+          <line>295</line>
+          <properties class="sample.progect3temp.BusinessHomepageController" method="goToChat">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="126" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/sample/progect3temp/ChatController.java</url>
+          <line>258</line>
+          <properties class="sample.progect3temp.ChatController" method="back">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="127" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

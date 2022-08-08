@@ -259,7 +259,8 @@ public class SeePostsController {
 
     public boolean commentOnAPost(String commenter, String beingCommented,String postNum, String comment) throws IOException {
         int num = Integer.parseInt (postNum);
-        String text = postText.get (num - 1);
+        //String text = postText.get (num - 1);
+        String text = postText.get (num);
         String id = "";
         String idOfComment ="";
         int commentID = 0;

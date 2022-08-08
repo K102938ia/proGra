@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="borderPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="575.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.progect3temp.CreatePostController">
+   <children>
+      <Button fx:id="createpostBackButton" layoutX="26.0" layoutY="528.0" mnemonicParsing="false" onAction="#goBackToHomePage" text="Back">
+         <font>
+            <Font name="Agency FB Bold" size="14.0" />
+         </font>
+      </Button>
+      <TextArea fx:id="postTextTextField" layoutX="139.0" layoutY="14.0" prefHeight="138.0" prefWidth="644.0" />
+      <Label layoutX="26.0" layoutY="393.0" prefHeight="18.0" prefWidth="242.0" text="Do you want your post to be commentable?">
+         <font>
+            <Font name="Agency FB Bold" size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="postButton" layoutX="374.0" layoutY="447.0" mnemonicParsing="false" onAction="#createPost" prefHeight="27.0" prefWidth="50.0" text="post" textFill="#379c21">
+         <font>
+            <Font name="Agency FB Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="addImageButton" layoutX="41.0" layoutY="237.0" mnemonicParsing="false" onAction="#addImage" text="add image">
+         <font>
+            <Font name="Agency FB Bold" size="14.0" />
+         </font>
+      </Button>
+      <ImageView fx:id="postImage" fitHeight="187.0" fitWidth="200.0" layoutX="139.0" layoutY="177.0" pickOnBounds="true" preserveRatio="true" />
+      <Button fx:id="addText" layoutX="45.0" layoutY="70.0" mnemonicParsing="false" onAction="#addText" prefHeight="26.0" prefWidth="64.0" text="add text">
+         <font>
+            <Font name="Agency FB Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="452.0" layoutY="390.0" mnemonicParsing="false" onAction="#commentable" text="done">
+         <font>
+            <Font name="Agency FB Bold" size="14.0" />
+         </font>
+      </Button>
+      <Label fx:id="commentLabel" layoutX="507.0" layoutY="389.0" prefHeight="26.0" prefWidth="174.0" textFill="#ff3a3a">
+         <font>
+            <Font name="Agency FB Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="postLabel" layoutX="428.0" layoutY="447.0" prefHeight="26.0" prefWidth="372.0" textFill="#21cf35">
+         <font>
+            <Font name="Agency FB Bold" size="14.0" />
+         </font>
+      </Label>
+      <CheckBox fx:id="yesComment" layoutX="310.0" layoutY="394.0" mnemonicParsing="false" text="yes">
+         <font>
+            <Font name="Agency FB Bold" size="14.0" />
+         </font>
+      </CheckBox>
+      <CheckBox fx:id="noComment" layoutX="374.0" layoutY="395.0" mnemonicParsing="false" text="no">
+         <font>
+            <Font name="Agency FB Bold" size="14.0" />
+         </font>
+      </CheckBox>
+   </children>
+</AnchorPane>

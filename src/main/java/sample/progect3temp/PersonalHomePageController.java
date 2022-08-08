@@ -40,6 +40,8 @@ public class PersonalHomePageController implements Initializable {
     public static int postNum = 0;
     public static int currentPost = 0;
     public static HashMap<String ,String> posts = new HashMap<> ();//1.text     2.image
+    public ArrayList<String> textPosts = new ArrayList<> ();
+    public ArrayList<String> imagePosts = new ArrayList<> ();
 
     static String currentFF;
 
@@ -84,6 +86,8 @@ public class PersonalHomePageController implements Initializable {
                  temp = str.split ("&");
                posts.put (temp[0],temp[1]);
                postNum++;
+               textPosts.add (temp[0]);
+               imagePosts.add (temp[1]);
 
             }
         } catch ( FileNotFoundException e ) {
@@ -105,7 +109,16 @@ public class PersonalHomePageController implements Initializable {
             }
             currentPost = postNum;
             //currentPost--;
-            currentPost -= 2;
+//            if(currentPost != 0 && currentPost != 1){
+//                currentPost -= 2;
+//            }
+//            if(currentPost == 1){
+//                currentPost--;
+//            }
+            if(postNum != 0){
+                currentPost = postNum - 1;
+            }
+
         }
 
         fAndFList.getSelectionModel().selectedItemProperty().addListener(new ChangeListener <String> () {
@@ -283,8 +296,10 @@ public class PersonalHomePageController implements Initializable {
     public void setSeeOlderPosts(ActionEvent event){
         int n = currentPost - 1;
         if(n < posts.size () && n >= 0){
-            String s  = (String) posts.keySet ().toArray ()[n];
-            String s2 = posts.get (s);
+           // String s  = (String) posts.keySet ().toArray ()[n];
+            //String s2 = posts.get (s);
+            String s = textPosts.get (n);
+            String s2 = imagePosts.get (n);
             String[] strings = s2.split ("&:");
             File file = new File(strings[0]);
             if (file.isAbsolute()){
@@ -300,8 +315,10 @@ public class PersonalHomePageController implements Initializable {
         }
         else if( n == -1){
             n = posts.size () - 1;
-            String s  = (String) posts.keySet ().toArray ()[n];
-            String s2 = posts.get (s);
+            //String s  = (String) posts.keySet ().toArray ()[n];
+            //String s2 = posts.get (s);
+            String s = textPosts.get (n);
+            String s2 = imagePosts.get (n);
             String[] strings = s2.split ("&:");
             File file = new File(strings[0]);
             if (file.isAbsolute()){

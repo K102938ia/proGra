@@ -39,6 +39,8 @@ public class BusinessHomepageController implements Initializable {
     public static int currentPost = 0;
 
     public static HashMap <String ,String> posts = new HashMap<> ();//1.text     2.image
+    public ArrayList<String> textPosts = new ArrayList<> ();
+    public ArrayList<String> imagePosts = new ArrayList<> ();
 
     @FXML
     private BorderPane businessPane;
@@ -112,6 +114,8 @@ public class BusinessHomepageController implements Initializable {
                 temp = str.split ("&");
                 posts.put (temp[0],temp[1]);
                 postNum++;
+                textPosts.add (temp[0]);
+                imagePosts.add (temp[1]);
             }
         } catch ( FileNotFoundException e ) {
             e.printStackTrace ();
@@ -130,7 +134,10 @@ public class BusinessHomepageController implements Initializable {
                 bHomePageRecentText.setText (s2);
             }
             currentPost = postNum;
-            currentPost--;
+            //currentPost--;
+            if(postNum != 0){
+                currentPost = postNum - 1;
+            }
         }
 
         fAndFList.getSelectionModel().selectedItemProperty().addListener(new ChangeListener <String> () {

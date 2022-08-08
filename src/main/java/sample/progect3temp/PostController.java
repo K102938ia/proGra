@@ -78,7 +78,7 @@ public class PostController {
         if ( ! found ) {
             for ( User user : ManagerBasic.users ) {
                 if ( user.getUserName ().equals (user.getUserName ()) ) {
-                    if ( user.getType ().equals ("Business") ) {
+                    if ( user.getType ().equals ("Business") && !user.getType ().equals (null)) {
                         String confPost = "$(Ad) " + post;
                         for ( User businessUser : ManagerBasic.businessUsers ) {
                             if ( businessUser.getUserName ().equals (userName) ) {
