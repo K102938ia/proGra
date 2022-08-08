@@ -12,6 +12,20 @@ public  class User {
     String securityAnswer;
     public ArrayList<Post> posts = new ArrayList<> ();
 
+    ArrayList<String> PVAndGRNames=new ArrayList<>();
+
+
+
+    public ArrayList<String> getPVAndGRNames() {
+        return PVAndGRNames;
+    }
+
+    public void setPVAndGRNames(String newGRorPV)
+    {
+        PVAndGRNames.add(newGRorPV);
+    }
+
+
 
 
     public User(String userName, int numberOfFollower, int numberOfFollowing) {

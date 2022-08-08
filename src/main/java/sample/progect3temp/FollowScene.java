@@ -32,6 +32,38 @@ public class FollowScene {
     private TextField searchForName;
     @FXML
     private Label feedBackLabel;
+    @FXML
+    private Label recomError;
+
+    @FXML
+    private TextField recomResult;
+    @FXML
+    private Button showRecomButton;
+
+    @FXML
+    void showRecom(ActionEvent event) {
+        RecommendController recommendController = new RecommendController ();
+        recomError.setText("");
+        recomResult.setText("");
+        String recommendation = "";
+        if(PersonalHomePageController.type.equalsIgnoreCase ("Personal")){
+            recommendation=recommendController.findFofUrFollowers(PersonalHomePageController.username);
+        }
+        if(BusinessHomepageController.type.equalsIgnoreCase ("Business")){
+            recommendation=recommendController.findFofUrFollowers(BusinessHomepageController.username);
+        }
+
+        if (recommendation.equals("    "))
+        {
+            recomError.setText("there is no recommendation for you. At least one follower or following is needed !");
+        }
+
+        else
+        {
+            recomResult.setText(recommendation);
+
+        }
+    }
 
     @FXML
     void follow(ActionEvent event) throws IOException {

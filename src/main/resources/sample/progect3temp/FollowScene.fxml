@@ -21,9 +21,25 @@
          <font>
             <Font name="Calisto MT" size="13.0" />
          </font></Button>
-      <Label fx:id="feedBackLabel" layoutX="139.0" layoutY="311.0" prefHeight="26.0" prefWidth="222.0">
+      <Label fx:id="feedBackLabel" alignment="CENTER" layoutX="131.0" layoutY="288.0" prefHeight="26.0" prefWidth="236.0">
          <font>
             <Font name="Calisto MT" size="14.0" />
          </font></Label>
+      <Label alignment="CENTER" layoutX="517.0" layoutY="149.0" prefHeight="26.0" prefWidth="206.0" text="Recommnd users">
+         <font>
+            <Font name="Calisto MT" size="16.0" />
+         </font>
+      </Label>
+      <Button fx:id="showRecomButton" layoutX="578.0" layoutY="223.0" mnemonicParsing="false" onAction="#showRecom" prefHeight="26.0" prefWidth="90.0" text="recommend">
+         <font>
+            <Font name="Calisto MT" size="14.0" />
+         </font>
+      </Button>
+      <TextField fx:id="recomResult" layoutX="537.0" layoutY="184.0" prefHeight="26.0" prefWidth="172.0" />
+      <Label fx:id="recomError" layoutX="454.0" layoutY="288.0" prefHeight="26.0" prefWidth="338.0" textFill="#ea1a1a">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
    </children>
 </AnchorPane>

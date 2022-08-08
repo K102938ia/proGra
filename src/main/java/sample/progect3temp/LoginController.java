@@ -7,6 +7,7 @@ import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
+import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
@@ -31,7 +32,7 @@ static String typeStatic;
     private Text loginError;
 
     @FXML
-    private TextField passWord;
+    private PasswordField passWord;
 
     @FXML
     private TextField username;

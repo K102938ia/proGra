@@ -17,6 +17,7 @@ import javafx.scene.control.TextArea;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.input.MouseEvent;
+import javafx.scene.layout.BorderPane;
 import javafx.stage.Stage;
 
 import java.io.File;
@@ -118,6 +119,8 @@ public class PersonalHomePageController implements Initializable {
 
     }
 
+    @FXML
+    private BorderPane personalPane;
 
     @FXML
     Label numberOfFollowingsLabel;
@@ -225,6 +228,13 @@ public class PersonalHomePageController implements Initializable {
         }
     }
 
+    @FXML
+    void chatGo(MouseEvent event) throws IOException {
+        Main main = new Main ();
+        main.changeScene("chat-page.fxml");
+    }
+
+
 
     @FXML
     void seeFollowings(MouseEvent event) throws FileNotFoundException {
@@ -238,6 +248,13 @@ public class PersonalHomePageController implements Initializable {
         }
         fAndFList.getItems ().addAll (f);
     }
+
+    @FXML
+    void exit(MouseEvent event) {
+        stage = (Stage) personalPane.getScene ().getWindow ();
+        stage.close ();
+    }
+
 
     public void follow(MouseEvent event) throws IOException {
         followScene (event);
@@ -259,8 +276,8 @@ public class PersonalHomePageController implements Initializable {
         }
     }
 
-    public void suggestUsers(){
-
+    public void suggestUsers(MouseEvent event) throws IOException {
+        suggestScene(event);
     }
 
     public void setSeeOlderPosts(ActionEvent event){
@@ -415,6 +432,15 @@ public class PersonalHomePageController implements Initializable {
 
     public void mainmenu( MouseEvent event ) throws IOException {
         root = FXMLLoader.load(getClass().getResource("MainMenu.fxml"));
+        stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
+        scene = new Scene (root);
+        stage.setScene(scene);
+        stage.show();
+
+    }
+
+    public void suggestScene( MouseEvent event ) throws IOException {
+        root = FXMLLoader.load(getClass().getResource("SuggestUsers.fxml"));
         stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
         scene = new Scene (root);
         stage.setScene(scene);

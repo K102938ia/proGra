@@ -19,6 +19,19 @@ public class ManagerBasic {
     public static ArrayList < User > businessUsers = new ArrayList <> ();
     public static ArrayList < User > personalUsers = new ArrayList <> ();
     static ArrayList < Post > allPosts = new ArrayList <> ();
+    static private ArrayList<String> chatListButtonIDs =new ArrayList<>();
+
+
+    public void setChatListIDs(String newID) {
+
+        chatListButtonIDs.add(newID);
+
+    }
+
+    public ArrayList<String> getChatListIDs() {
+        return chatListButtonIDs;
+    }
+
 
     static String currentUser;
     public void setCurrentUser(String userName)

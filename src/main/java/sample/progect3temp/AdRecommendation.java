@@ -121,7 +121,7 @@ public class AdRecommendation {
 
         for ( User businessUser : ManagerBasic.businessUsers ) {
             String name = businessUser.getUserName ();
-            if(!name.equals (null)){
+            if(!name.equals (null) && !name.equals (userName)){
                 File posts = new File (name + "Posts.txt");
                 Scanner postsScanner = new Scanner (posts);
                 while (postsScanner.hasNextLine ()){

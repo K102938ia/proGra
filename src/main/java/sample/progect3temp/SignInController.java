@@ -10,6 +10,7 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
+import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
 import javafx.scene.image.ImageView;
 import javafx.scene.text.Text;
@@ -35,13 +36,13 @@ Main main=new Main();
 
 
     @FXML
-    private TextField confirmedPass;
+    private PasswordField confirmedPass;
 
     @FXML
     private Button nextButton;
 
     @FXML
-    private TextField passWord;
+    private PasswordField passWord;
 
     @FXML
     private Text signInError;

@@ -16,6 +16,7 @@ import javafx.scene.control.TextArea;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.input.MouseEvent;
+import javafx.scene.layout.BorderPane;
 import javafx.stage.Stage;
 
 import java.io.File;
@@ -38,6 +39,9 @@ public class BusinessHomepageController implements Initializable {
     public static int currentPost = 0;
 
     public static HashMap <String ,String> posts = new HashMap<> ();//1.text     2.image
+
+    @FXML
+    private BorderPane businessPane;
 
     @FXML
     Label numberOfFollowingsLabel1;
@@ -140,6 +144,12 @@ public class BusinessHomepageController implements Initializable {
 
     }
 
+    @FXML
+    void exit(MouseEvent event) {
+        stage = (Stage) businessPane.getScene ().getWindow ();
+        stage.close ();
+    }
+
     public void suggestAd(MouseEvent event) throws IOException {
         FirstAdScene(event);
     }
@@ -179,8 +189,8 @@ public class BusinessHomepageController implements Initializable {
         }
     }
 
-    public void suggestUsers(){
-
+    public void suggestUsers(MouseEvent event) throws IOException {
+        suggestScene(event);
     }
 
     @FXML
@@ -273,6 +283,12 @@ public class BusinessHomepageController implements Initializable {
     @FXML
     void showStats(MouseEvent event) throws IOException {
         statsScene(event);
+    }
+
+    @FXML
+    void goToChat(MouseEvent event) throws IOException {
+        Main main = new Main ();
+        main.changeScene("chat-page.fxml");
     }
 
     @FXML
@@ -392,6 +408,15 @@ public class BusinessHomepageController implements Initializable {
 
     public void mainmenu( MouseEvent event ) throws IOException {
         root = FXMLLoader.load(getClass().getResource("MainMenu.fxml"));
+        stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
+        scene = new Scene (root);
+        stage.setScene(scene);
+        stage.show();
+
+    }
+
+    public void suggestScene( MouseEvent event ) throws IOException {
+        root = FXMLLoader.load(getClass().getResource("SuggestUsers.fxml"));
         stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
         scene = new Scene (root);
         stage.setScene(scene);
