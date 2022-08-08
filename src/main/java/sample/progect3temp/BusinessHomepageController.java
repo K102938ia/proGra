@@ -77,6 +77,9 @@ public class BusinessHomepageController implements Initializable {
 
     @Override
     public void initialize( URL location, ResourceBundle resources ){
+        textPosts.clear ();
+        imagePosts.clear ();
+        posts.clear ();
         followers = 0;
         followings = 0;
         nameLabel.setText (username);
@@ -302,8 +305,10 @@ public class BusinessHomepageController implements Initializable {
     void seeOlderPosts( ActionEvent event) {
         int n = currentPost - 1;
         if(n < posts.size () && n >= 0){
-            String s  = (String) posts.keySet ().toArray ()[n];
-            String s2 = posts.get (s);
+//            String s  = (String) posts.keySet ().toArray ()[n];
+//            String s2 = posts.get (s);
+            String s = textPosts.get (n);
+            String s2 = imagePosts.get (n);
             String[] strings = s2.split ("&:");
             File file = new File(strings[0]);
             if (file.isAbsolute()){
@@ -319,8 +324,10 @@ public class BusinessHomepageController implements Initializable {
         }
         else if( n == -1){
             n = posts.size () - 1;
-            String s  = (String) posts.keySet ().toArray ()[n];
-            String s2 = posts.get (s);
+//            String s  = (String) posts.keySet ().toArray ()[n];
+//            String s2 = posts.get (s);
+            String s = textPosts.get (n);
+            String s2 = imagePosts.get (n);
             String[] strings = s2.split ("&:");
             File file = new File(strings[0]);
             if (file.isAbsolute()){

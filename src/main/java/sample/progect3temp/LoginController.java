@@ -106,13 +106,13 @@ static String typeStatic;
 
     }
 
-
+String name;
 
     @FXML
     void forgotPass(ActionEvent event) throws IOException {
 
         main.changeScene("login-passForgot.fxml");
-
+        name = userNameStatic;
     }
 
 
@@ -129,7 +129,29 @@ static String typeStatic;
 
         if (condition==1)
         {
-            main.changeScene("entered-firstPage.fxml");
+            //main.changeScene("entered-firstPage.fxml");
+            boolean personal = false;
+            for ( User personalUser : ManagerBasic.personalUsers ) {
+                if(personalUser.userName.equals(userNameStatic)){
+                    PersonalHomePageController.type = "Personal";
+                    PersonalHomePageController.username = username2.getText ();
+                    personalHomePge (event);
+                    personal =true;
+                    BusinessHomepageController.type = " ";
+                    break;
+                }
+            }
+            if(!personal) {
+                for ( User businessUser : ManagerBasic.businessUsers ) {
+                    if ( businessUser.userName.equals (userNameStatic) ) {
+                        BusinessHomepageController.type = "Business";
+                        BusinessHomepageController.username = username2.getText ();
+                        businessHomePge (event);
+                        PersonalHomePageController.type = " ";
+                        break;
+                    }
+                }
+            }
         }
 
 
@@ -181,6 +203,7 @@ static String typeStatic;
 
        String tempAnswer = answer.getText();
         String username=username2.getText();
+        LoginController.userNameStatic = username;
 
         managerBasic.setCurrentUser(username);
 

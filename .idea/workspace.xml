@@ -4,231 +4,44 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9cfffa70-73dc-4bdc-9869-9fa841f7e75c" name="Changes" comment="initial commit10">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BusinessUsers.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/a0PostComments.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/a0PostLikers.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aPosts.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/afollower.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/afollowing.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/b0PostComments.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/b0PostLikers.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/b0PostSeen.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/b1PostComments.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/b1PostLikers.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/b1PostSeen.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bPosts.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bfollower.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bfollowing.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cPosts.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cfollower.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cfollowing.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dPosts.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dfollower.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dfollowing.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ePosts.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/efollower.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/efollowing.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/groupIDs.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/groupNames.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/like.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/personalUsers.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sample/progect3temp/like.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/adSample1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/adSample2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/adSample3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/adSample4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/adSample7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/adSample8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/adSample9.jfif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/like.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/sample1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/sample2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/sample3.jfif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/sample4.jfif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/sample7.jfif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/sample8.jfif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/sample9.jfif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/tickIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/like.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sample/progect3temp/addRecom.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sample/progect3temp/allChats.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sample/progect3temp/allchats.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sample/progect3temp/change-groupID.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sample/progect3temp/change-groupName.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sample/progect3temp/comment.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sample/progect3temp/createPost.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sample/progect3temp/exit.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sample/progect3temp/follow-show.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sample/progect3temp/follow-unfollow-recom.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sample/progect3temp/follow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sample/progect3temp/forward-page.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sample/progect3temp/group-addMember.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sample/progect3temp/group-inf.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sample/progect3temp/group-remove.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sample/progect3temp/icon4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sample/progect3temp/like.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sample/progect3temp/logout.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sample/progect3temp/mainmenu.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sample/progect3temp/newConversation.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sample/progect3temp/newGroup.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sample/progect3temp/peopleRecom.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sample/progect3temp/red.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sample/progect3temp/search-MID.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sample/progect3temp/search-Text.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sample/progect3temp/stats.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sample/progect3temp/unfollow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/images/adSample1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/images/adSample2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/images/adSample3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/images/adSample4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/images/adSample7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/images/adSample8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/images/adSample9.jfif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/images/backIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/images/chatIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/images/firstPage.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/images/groupIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/images/like.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/images/lock.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/images/loginPage.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/images/menuIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/images/sample1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/images/sample2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/images/sample3.jfif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/images/sample4.jfif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/images/sample7.jfif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/images/sample8.jfif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/images/sample9.jfif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/images/search-icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/images/searchID.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/images/settingIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/images/signin.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/images/tickIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/like.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/module-info.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/AdRecommendation.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/BusinessAccount.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/BusinessHomepage.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/BusinessHomepageController$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/BusinessHomepageController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/BusinessPost.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/ChatController$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/ChatController$10.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/ChatController$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/ChatController$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/ChatController$4.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/ChatController$5.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/ChatController$6.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/ChatController$7.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/ChatController$8.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/ChatController$9.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/ChatController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/Comment.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/CreatePost.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/CreatePostController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/FAndFAd.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/FAndFAd.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/FirstAdRecommendation.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/FirstAdRecommendationController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/FirstPage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/FollowController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/FollowScene.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/FollowScene.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/GroupController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/InApp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/Like.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/LoginController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/MainMenu.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/MainMenu.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/MainMenuController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/ManagerBasic.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/PersonalAccount.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/PersonalHomePageController$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/PersonalHomePageController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/PersonalPost.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/PersonalhomePage.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/Post.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/PostComparator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/PostController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/RandomAd.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/RandomAd.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/RecommendController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/SeeCommentsOfPost.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/SeeCommentsOfPostController$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/SeeCommentsOfPostController$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/SeeCommentsOfPostController$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/SeeCommentsOfPostController$4.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/SeeCommentsOfPostController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/SeeFComments$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/SeeFComments$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/SeeFComments$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/SeeFComments$4.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/SeeFComments.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/SeeFComments.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/SeeFLikes$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/SeeFLikes$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/SeeFLikes.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/SeeFLikes.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/SeeLikesOfPost.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/SeeLikesOfPostController$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/SeeLikesOfPostController$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/SeeLikesOfPostController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/SeePosts.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/SeePostsController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/SeePostsF.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/Seen.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/SignInController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/Stats.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/StatsController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/SuggestUsers.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/SuggestUsers.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/addRecom.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/allChats.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/allchats.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/change-groupID.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/change-groupName.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/chat-page.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/chat-searchIds.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/comment.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/createPost.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/entered-firstPage.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/exit.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/first-page.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/follow-show.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/follow-unfollow-recom.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/follow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/forward-page.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/group-addMember.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/group-inf.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/group-remove.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/icon4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/like.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/login-page.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/login-passForgot.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/logout.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/mainmenu.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/newConversation.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/newGroup-page.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/newGroup.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/peopleRecom.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/red.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/search-MID.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/search-Text.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/signin-page.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/signin-page2.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/stats.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/unfollow.png" afterDir="false" />
+    <list default="true" id="9cfffa70-73dc-4bdc-9869-9fa841f7e75c" name="Changes" comment="initial commit12">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusinessUsers.txt" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessUsers.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/a0PostComments.txt" beforeDir="false" afterPath="$PROJECT_DIR$/a0PostComments.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aPosts.txt" beforeDir="false" afterPath="$PROJECT_DIR$/aPosts.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/afollower.txt" beforeDir="false" afterPath="$PROJECT_DIR$/afollower.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/b0PostComments.txt" beforeDir="false" afterPath="$PROJECT_DIR$/b0PostComments.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/b0PostLikers.txt" beforeDir="false" afterPath="$PROJECT_DIR$/b0PostLikers.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/b0PostSeen.txt" beforeDir="false" afterPath="$PROJECT_DIR$/b0PostSeen.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/b1PostComments.txt" beforeDir="false" afterPath="$PROJECT_DIR$/b1PostComments.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/b1PostSeen.txt" beforeDir="false" afterPath="$PROJECT_DIR$/b1PostSeen.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bPosts.txt" beforeDir="false" afterPath="$PROJECT_DIR$/bPosts.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cPosts.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cPosts.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dPosts.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dfollower.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dfollowing.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ePosts.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/efollower.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/efollowing.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/groupIDs.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/groupNames.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/personalUsers.txt" beforeDir="false" afterPath="$PROJECT_DIR$/personalUsers.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/sample/progect3temp/BusinessHomepageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sample/progect3temp/BusinessHomepageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sample/progect3temp/MainMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sample/progect3temp/MainMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sample/progect3temp/ManagerBasic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sample/progect3temp/ManagerBasic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sample/progect3temp/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sample/progect3temp/LoginController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/sample/progect3temp/PersonalHomePageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sample/progect3temp/PersonalHomePageController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/sample/progect3temp/PostController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sample/progect3temp/PostController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sample/progect3temp/SeePostsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sample/progect3temp/SeePostsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/sample/progect3temp/PersonalHomePage.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/sample/progect3temp/PersonalHomePage.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/images/adSample8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/images/adSample9.jfif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/sample/progect3temp/login-passForgot.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/sample/progect3temp/login-passForgot.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/images/adSample8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/images/adSample9.jfif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sample/progect3temp/BusinessHomepageController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/BusinessHomepageController$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sample/progect3temp/BusinessHomepageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/BusinessHomepageController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sample/progect3temp/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/LoginController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sample/progect3temp/PersonalHomePageController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/PersonalHomePageController$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sample/progect3temp/PersonalHomePageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/PersonalHomePageController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sample/progect3temp/PostController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/PostController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sample/progect3temp/login-passForgot.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sample/progect3temp/login-passForgot.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/usersAndPasswords.txt" beforeDir="false" afterPath="$PROJECT_DIR$/usersAndPasswords.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -312,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659965429896</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="initial commit12">
+      <created>1659971754444</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1659971754444</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -330,7 +150,8 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="initial commit2" />
     <MESSAGE value="initial commit10" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit10" />
+    <MESSAGE value="initial commit12" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit12" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -342,12 +163,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/sample/progect3temp/LoginController.java</url>
-          <line>164</line>
+          <line>186</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/sample/progect3temp/BusinessHomepageController.java</url>
-          <line>103</line>
+          <line>106</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -452,7 +273,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/sample/progect3temp/PersonalHomePageController.java</url>
-          <line>223</line>
+          <line>226</line>
           <option name="timeStamp" value="66" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -462,7 +283,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/sample/progect3temp/BusinessHomepageController.java</url>
-          <line>143</line>
+          <line>146</line>
           <option name="timeStamp" value="72" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -482,7 +303,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/sample/progect3temp/PersonalHomePageController.java</url>
-          <line>110</line>
+          <line>113</line>
           <option name="timeStamp" value="79" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -507,7 +328,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/sample/progect3temp/BusinessHomepageController.java</url>
-          <line>136</line>
+          <line>139</line>
           <option name="timeStamp" value="85" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -637,8 +458,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/sample/progect3temp/PersonalHomePageController.java</url>
-          <line>111</line>
+          <line>114</line>
           <option name="timeStamp" value="128" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/sample/progect3temp/LoginController.java</url>
+          <line>131</line>
+          <option name="timeStamp" value="131" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-field">
           <url>file://$PROJECT_DIR$/src/main/java/sample/progect3temp/User.java</url>
@@ -657,7 +483,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/sample/progect3temp/BusinessHomepageController.java</url>
-          <line>301</line>
+          <line>304</line>
           <properties class="sample.progect3temp.BusinessHomepageController" method="seeOlderPosts">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
@@ -675,7 +501,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/sample/progect3temp/BusinessHomepageController.java</url>
-          <line>295</line>
+          <line>298</line>
           <properties class="sample.progect3temp.BusinessHomepageController" method="goToChat">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />

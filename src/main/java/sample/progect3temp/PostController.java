@@ -78,109 +78,115 @@ public class PostController {
         if ( ! found ) {
             for ( User user : ManagerBasic.users ) {
                 if ( user.getUserName ().equals (user.getUserName ()) ) {
-                    if ( user.getType ().equals ("Business") && !user.getType ().equals (null)) {
-                        String confPost = "$(Ad) " + post;
-                        for ( User businessUser : ManagerBasic.businessUsers ) {
-                            if ( businessUser.getUserName ().equals (userName) ) {
-                                BusinessPost businessPost = new BusinessPost (confPost);
-                                user.posts.add (businessPost);
-                                Post post1 = new Post (confPost);
-                                ManagerBasic.allPosts.add (post1);
-                                File file = new File (userName + "Posts.txt");
-                                Scanner readID = new Scanner (file);
-                                int postsNum = 0;
-                                while (readID.hasNextLine ()){
-                                    String s = readID.nextLine ();
-                                    postsNum++;
-                                }
-                                FileWriter fileWriter = null;
-                                String ID = userName + postsNum;
-                                try {
-                                    LocalDateTime myObj = LocalDateTime.now();
-                                    DateTimeFormatter myFormatObj = DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm:ss");
-                                    String formattedDate = myObj.format(myFormatObj);
-                                    fileWriter = new FileWriter (file, true);
-                                    fileWriter.write (confPost + ":" + commentable + ":@" + formattedDate + "*" + ID + "\n");
-                                    fileWriter.close ();
-                                } catch ( IOException e ) {
-                                    e.printStackTrace ();
-                                }
+                    try {
+                        if ( user.getType ().equals ("Business") && !user.getType ().equals (null)) {
+                            String confPost = "$(Ad) " + post;
+                            for ( User businessUser : ManagerBasic.businessUsers ) {
+                                if ( businessUser.getUserName ().equals (userName) ) {
+                                    BusinessPost businessPost = new BusinessPost (confPost);
+                                    user.posts.add (businessPost);
+                                    Post post1 = new Post (confPost);
+                                    ManagerBasic.allPosts.add (post1);
+                                    File file = new File (userName + "Posts.txt");
+                                    Scanner readID = new Scanner (file);
+                                    int postsNum = 0;
+                                    while (readID.hasNextLine ()){
+                                        String s = readID.nextLine ();
+                                        postsNum++;
+                                    }
+                                    FileWriter fileWriter = null;
+                                    String ID = userName + postsNum;
+                                    try {
+                                        LocalDateTime myObj = LocalDateTime.now();
+                                        DateTimeFormatter myFormatObj = DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm:ss");
+                                        String formattedDate = myObj.format(myFormatObj);
+                                        fileWriter = new FileWriter (file, true);
+                                        fileWriter.write (confPost + ":" + commentable + ":@" + formattedDate + "*" + ID + "\n");
+                                        fileWriter.close ();
+                                    } catch ( IOException e ) {
+                                        e.printStackTrace ();
+                                    }
 
-                                File file1 = new File (ID + "PostLikers.txt");
-                                FileWriter fileWriter1 = null;
-                                try {
-                                    fileWriter1 = new FileWriter (file1, true);
-                                    //fileWriter1.write(confPost + "\n");
-                                    fileWriter1.close ();
-                                } catch ( IOException e ) {
-                                    e.printStackTrace ();
-                                }
+                                    File file1 = new File (ID + "PostLikers.txt");
+                                    FileWriter fileWriter1 = null;
+                                    try {
+                                        fileWriter1 = new FileWriter (file1, true);
+                                        //fileWriter1.write(confPost + "\n");
+                                        fileWriter1.close ();
+                                    } catch ( IOException e ) {
+                                        e.printStackTrace ();
+                                    }
 
-                                File file2 = new File (ID + "PostComments.txt");
-                                FileWriter fileWriter2 = null;
-                                try {
-                                    fileWriter2 = new FileWriter (file2, true);
-                                    //fileWriter2.write(confPost + "\n");
-                                    fileWriter2.close ();
-                                } catch ( IOException e ) {
-                                    e.printStackTrace ();
+                                    File file2 = new File (ID + "PostComments.txt");
+                                    FileWriter fileWriter2 = null;
+                                    try {
+                                        fileWriter2 = new FileWriter (file2, true);
+                                        //fileWriter2.write(confPost + "\n");
+                                        fileWriter2.close ();
+                                    } catch ( IOException e ) {
+                                        e.printStackTrace ();
+                                    }
+                                    addedPost = true;
+                                    break;
                                 }
-                                addedPost = true;
-                                break;
                             }
-                        }
-                    } else if ( user.getType ().equals ("Personal") ) {
-                        for ( User personalUser : ManagerBasic.personalUsers ) {
-                            if ( personalUser.getUserName ().equals (userName) ) {
-                                PersonalPost personalPost = new PersonalPost (post);
-                                personalUser.posts.add (personalPost);
-                                Post post2 = new Post (post);
-                                ManagerBasic.allPosts.add (post2);
-                                FileWriter fileWriter = null;
-                                File file = new File (userName + "Posts.txt");
-                                Scanner readID = new Scanner (file);
-                                int postsNum = 0;
-                                while (readID.hasNextLine ()){
-                                    String s = readID.nextLine ();
-                                    postsNum++;
-                                }
-                                String ID = userName + postsNum;
-                                try {
-                                    LocalDateTime myObj = LocalDateTime.now();
-                                    DateTimeFormatter myFormatObj = DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm:ss");
-                                    String formattedDate = myObj.format(myFormatObj);
-                                    fileWriter = new FileWriter (file, true);
-                                    fileWriter.write (post + ":" + commentable +":@" + formattedDate + "*" + ID +  "\n");
-                                    fileWriter.close ();
-                                } catch ( IOException e ) {
-                                    e.printStackTrace ();
-                                }
+                        } else if ( user.getType ().equals ("Personal") ) {
+                            for ( User personalUser : ManagerBasic.personalUsers ) {
+                                if ( personalUser.getUserName ().equals (userName) ) {
+                                    PersonalPost personalPost = new PersonalPost (post);
+                                    personalUser.posts.add (personalPost);
+                                    Post post2 = new Post (post);
+                                    ManagerBasic.allPosts.add (post2);
+                                    FileWriter fileWriter = null;
+                                    File file = new File (userName + "Posts.txt");
+                                    Scanner readID = new Scanner (file);
+                                    int postsNum = 0;
+                                    while (readID.hasNextLine ()){
+                                        String s = readID.nextLine ();
+                                        postsNum++;
+                                    }
+                                    String ID = userName + postsNum;
+                                    try {
+                                        LocalDateTime myObj = LocalDateTime.now();
+                                        DateTimeFormatter myFormatObj = DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm:ss");
+                                        String formattedDate = myObj.format(myFormatObj);
+                                        fileWriter = new FileWriter (file, true);
+                                        fileWriter.write (post + ":" + commentable +":@" + formattedDate + "*" + ID +  "\n");
+                                        fileWriter.close ();
+                                    } catch ( IOException e ) {
+                                        e.printStackTrace ();
+                                    }
 
-                                File file1 = new File (ID + "PostLikers.txt");
-                                FileWriter fileWriter1 = null;
-                                try {
-                                    fileWriter1 = new FileWriter (file1, true);
-                                    //fileWriter1.write(confPost + "\n");
-                                    fileWriter1.close ();
-                                } catch ( IOException e ) {
-                                    e.printStackTrace ();
-                                }
+                                    File file1 = new File (ID + "PostLikers.txt");
+                                    FileWriter fileWriter1 = null;
+                                    try {
+                                        fileWriter1 = new FileWriter (file1, true);
+                                        //fileWriter1.write(confPost + "\n");
+                                        fileWriter1.close ();
+                                    } catch ( IOException e ) {
+                                        e.printStackTrace ();
+                                    }
 
-                                File file2 = new File (ID + "PostComments.txt");
-                                FileWriter fileWriter2 = null;
-                                try {
-                                    fileWriter2 = new FileWriter (file2, true);
-                                    fileWriter2.close ();
-                                } catch ( IOException e ) {
-                                    e.printStackTrace ();
-                                }
+                                    File file2 = new File (ID + "PostComments.txt");
+                                    FileWriter fileWriter2 = null;
+                                    try {
+                                        fileWriter2 = new FileWriter (file2, true);
+                                        fileWriter2.close ();
+                                    } catch ( IOException e ) {
+                                        e.printStackTrace ();
+                                    }
 
-                                addedPost = true;
-                                break;
+                                    addedPost = true;
+                                    break;
+                                }
                             }
                         }
                     }
-                    break;
+                    catch ( NullPointerException e ){
+                        //continue;
+                    }
+
+                    //break;
                 }
             }
         }

@@ -10,7 +10,7 @@
 
 <AnchorPane prefHeight="400.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.progect3temp.LoginController">
    <children>
-      <ImageView fitHeight="410.0" fitWidth="710.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="400.0" fitWidth="710.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../../images/loginPage.jpg" />
          </image>
@@ -29,6 +29,6 @@
          </font>
       </Text>
       <Button fx:id="loginButton2" layoutX="117.0" layoutY="309.0" mnemonicParsing="false" onAction="#login2" text="log in" />
-      <Button layoutX="663.0" layoutY="374.0" mnemonicParsing="false" onAction="#goBackP2" text="back" />
+      <Button layoutX="655.0" layoutY="366.0" mnemonicParsing="false" onAction="#goBackP2" text="back" />
    </children>
 </AnchorPane>

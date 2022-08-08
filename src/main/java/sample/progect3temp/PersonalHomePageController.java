@@ -47,6 +47,9 @@ public class PersonalHomePageController implements Initializable {
 
     @Override
     public void initialize( URL location, ResourceBundle resources ){
+        imagePosts.clear ();
+        textPosts.clear ();
+        posts.clear ();
         followers = 0;
         followings = 0;
         currentPost = 0;
